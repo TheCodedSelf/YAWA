@@ -50,7 +50,7 @@
 		837F271528FBD633002921F3 /* StubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubAPIClient.swift; sourceTree = "<group>"; };
 		837F27252905061C002921F3 /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		837F272829050B0D002921F3 /* Randomizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomizables.swift; sourceTree = "<group>"; };
-		837FE91928A90C16004517FC /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837FE91928A90C16004517FC /* YAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837FE91C28A90C16004517FC /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		837FE91E28A90C16004517FC /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		837FE92028A90C18004517FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		837FE91A28A90C16004517FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				837FE91928A90C16004517FC /* Weather.app */,
+				837FE91928A90C16004517FC /* YAWA.app */,
 				837F270928FBCC41002921F3 /* WeatherTests.xctest */,
 			);
 			name = Products;
@@ -229,9 +229,9 @@
 			productReference = 837F270928FBCC41002921F3 /* WeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		837FE91828A90C16004517FC /* Weather */ = {
+		837FE91828A90C16004517FC /* YAWA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 837FE92728A90C18004517FC /* Build configuration list for PBXNativeTarget "Weather" */;
+			buildConfigurationList = 837FE92728A90C18004517FC /* Build configuration list for PBXNativeTarget "YAWA" */;
 			buildPhases = (
 				837FE91528A90C16004517FC /* Sources */,
 				837FE91628A90C16004517FC /* Frameworks */,
@@ -241,9 +241,9 @@
 			);
 			dependencies = (
 			);
-			name = Weather;
+			name = YAWA;
 			productName = Weather;
-			productReference = 837FE91928A90C16004517FC /* Weather.app */;
+			productReference = 837FE91928A90C16004517FC /* YAWA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +278,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				837FE91828A90C16004517FC /* Weather */,
+				837FE91828A90C16004517FC /* YAWA */,
 				837F270828FBCC41002921F3 /* WeatherTests */,
 			);
 		};
@@ -341,7 +341,7 @@
 /* Begin PBXTargetDependency section */
 		837F270E28FBCC41002921F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 837FE91828A90C16004517FC /* Weather */;
+			target = 837FE91828A90C16004517FC /* YAWA */;
 			targetProxy = 837F270D28FBCC41002921F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		837FE92728A90C18004517FC /* Build configuration list for PBXNativeTarget "Weather" */ = {
+		837FE92728A90C18004517FC /* Build configuration list for PBXNativeTarget "YAWA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				837FE92828A90C18004517FC /* Debug */,

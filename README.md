@@ -1,4 +1,6 @@
-# Setup
+# YAWA — Yet _Another_ Weather App
+
+## Setup
 
 Add your Weather API key to a `Secrets.xcconfig` file. 
 
