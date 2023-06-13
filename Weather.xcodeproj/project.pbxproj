@@ -10,7 +10,6 @@
 		8347BCAF28B4D6CB0093F8E2 /* WeatherLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347BCAE28B4D6CB0093F8E2 /* WeatherLocationView.swift */; };
 		8347BCB128B4D7190093F8E2 /* WeatherLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347BCB028B4D7190093F8E2 /* WeatherLocationViewModel.swift */; };
 		8347BCB328B6090D0093F8E2 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347BCB228B6090D0093F8E2 /* Context.swift */; };
-		837F270428FA7AFD002921F3 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837F270328FA7AFD002921F3 /* Secrets.xcconfig */; };
 		837F270C28FBCC41002921F3 /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F270B28FBCC41002921F3 /* WeatherViewModelTests.swift */; };
 		837F271428FBD55F002921F3 /* StubLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F271328FBD55F002921F3 /* StubLocator.swift */; };
 		837F271628FBD633002921F3 /* StubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F271528FBD633002921F3 /* StubAPIClient.swift */; };
@@ -254,7 +253,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					837F270828FBCC41002921F3 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -298,7 +297,6 @@
 			files = (
 				837FE92428A90C18004517FC /* Preview Assets.xcassets in Resources */,
 				837FE92128A90C18004517FC /* Assets.xcassets in Resources */,
-				837F270428FA7AFD002921F3 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +523,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keeganrush.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -556,7 +554,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keeganrush.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
