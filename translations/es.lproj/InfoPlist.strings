@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+NSCameraUsageDescription = "Tab uses the camera to automatically read your itemized receipts";
+NSPhotoLibraryUsageDescription = "Used for saving and uploading receipt images";
+NEW_BILL_SHORTCUT_ITEM_TITLE = "New Bill";
+JOIN_BILL_SHORTCUT_ITEM_TITLE = "Join Bill";

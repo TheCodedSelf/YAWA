@@ -1,0 +1,457 @@
+/* 
+  Localizable.strings
+  tab
+
+  Created by Gabriel Savit on 3/6/19.
+  Copyright © 2019 Gabriel Savit. All rights reserved.
+*/
+
+"LOCALIZATION_KEY" = "es";
+
+// Shared
+"Foo" = "Bar";
+"OK" = "OK";
+"CANCEL" = "Cancelar";
+"LEAVE" = "Abandonar";
+"DELETE" = "Eliminar";
+"REMOVE" = "Quitar";
+"DIVIDE" = "Dividir";
+"SAVE" = "Guardar";
+"SKIP" = "Saltar";
+"NAME" = "Nombre";
+"NO" = "No";
+"LEAVE_BILL" = "Abandonar";
+"TAX/TIP" = "Imp./Prop.";
+"TOTALS" = "Totales";
+"ALL_DONE" = "Listo";
+"BY_HAND" = "A mano";
+"SETTINGS" = "Ajustes";
+"SUBTOTAL" = "Subtotal";
+"TIP" = "Propina";
+"TIP_(INCLUDED)" = "Propina (incluída)";
+"ADDITIONAL_TIP" = "Propina adicional";
+"DISCOUNT" = "Descuento";
+"DISCOUNTS" = "Descuentos";
+"PAYMENT" = "Pago";
+"PAYMENTS" = "Pagos";
+"TAX" = "Impuesto";
+"GRAND_TOTAL" = "Gran total";
+"ALL_UP" = "Total a pagar";
+"READY_TO_LEAVE_BILL?" = "¿Listo para abandonar ésta cuenta?";
+"IT_WILL_NOT_BE_SAVED" = "No será guardada.";
+"IT_WILL_BE_SAVED" = "Será guardada.";
+"YOUR_CHANGES_WILL_BE_SAVED" = "Tus cambios se guardarán";
+"CONNECT_VENMO" = "Conectar Venmo";
+"CONNECT_SQUARE_CASH" = "Conectar Square Cash";
+"UNABLE_TO_CONNECT_VENMO" = "No se pudo establecer conexión con tu cuenta Venmo. Por favor intenta de nuevo.";
+"UNABLE_TO_CONNECT_SQUARE_CASH" = "No se pudo establecer conexión con tu cuenta Square Cash. Por favor intenta de nuevo.";
+"UNABLE_TO_REACH_TAB" = "Sin comunicación con Tab - revisa tu conexión a internet.";
+"UNABLE_TO_SHARE_WARNING" = "No fue posible compartir. Por favor intenta de nuevo.";
+"%@'S_PAYMENTS" = "Pagos de %@";
+"YOUR_PAYMENTS" = "Tus pagos";
+"%@'S_TOTAL" = "Total de %@";
+"(NO_ITEMS)" = "(Ningun artículo)";
+"HAPPY_BDAY_:)" = "Feliz cumple :)";
+"SOMETHING_WENT_WRONG" = "Algo salió mal. ¡Una disculpa!";
+"SOMETHING_WENT_WRONG_TRY_AGAIN" = "Algo salió mal. ¡Una disculpa! Por favor intenta de nuevo.";
+"LOG_IN" = "Ingresar";
+"LOG_IN/SIGN_UP" = "Ingresar/Registrarse";
+"FAQS" = "FAQs";
+"REQUEST_VERB" = "solicitar";
+"PAY_VERB" = "pagar";
+"SENT" = "enviado";
+"RECEIVED" = "recibido";
+"CASH" = "efectivo";
+"PRIVACY_POLICY" = "Política de privacidad";
+"CONTINUE" = "Continuar";
+"SELECT" = "seleccionar";
+"SELECT_ABBREVIATED" = "selecc.";
+
+// AppDelegate
+
+"DEVICE_UNABLE_TO_SEND_MAIL" = "Tu dispositivo no puede enviar el email en su estado actual.";
+"MAIL_UNABLE_TO_SEND_FEEDBACK" = "Mail no pudo enviar tu feedback. Inténtalo de nuevo.";
+
+// BillViewController
+
+"%@_GOT_THIS" = "%@ tuvo esto";
+"%@_AND_%@_SHARED_THIS" = "%@ y %@ compartieron este";
+"%tu_PEOPLE_SHARED_THIS" = "%tu personas compartieron este";
+
+// OwnedBillViewController
+
+"LEAVE_BILL?" = "¿Abandonar cuenta?";
+"ALL_CHANGES_WILL_BE_SAVED" = "Se guardarán todos los cambios.";
+"EMPTY_BILL_WARNING" = "Tu factura se ve un poco vacía. ¡Agrega algunos artículos!";
+"+ADD_AN_ITEM" = "+Añadir artículo";
+"DELETE_ITEM_WARNING" = "¿Estás seguro que deseas eliminar este artículo?";
+"DIVIDE_THE_%@" = "Dividir el/la %@";
+"ITEM_OWNER_WILL_BE_REMOVED_WARNING" = "Nota: el dueño del artículo se quitará";
+"ITEM_OWNERS_WILL_BE_REMOVED_WARNING" = "Nota: los dueños del artículo se quitarán";
+"HOW_MANY_WAYS?" = "¿En cuántas partes?";
+"DELETE_BILL_OWNER_ERROR" = "¡No puedes eliminarte tú mismo!";
+"DELETE_PERSON_WITH_PAYMENTS_ERROR" = "No puedes eliminar alguien que ya hizo o recibió pagos.";
+"DELETE_PERSON_WARNING_%@" = "¿Estás seguro que deseas eliminar %@? No puedes deshacerlo.";
+
+// JoinedBillViewController
+
+"NO_ITEMS_YET" = "¡Aún no hay artículos!";
+"NO_ITEMS" = "¡No hay artículos!";
+"YOUR_SUBTOTAL" = "Tu subtotal";
+
+// TaxTipViewController
+
+"EDIT_BILL" = "Editar cuenta";
+"TIP_YOUR_SERVER" = "Dar propina";
+"NEGATIVE_GRAND_TOTAL_WARNING" = "El gran total debe ser una cantidad positiva. Revisa tu descuento.";
+"+ADD_INCLUDED_TIP" = "+Añadir propina incluída";
+"+ADD_DISCOUNTS" = "+Añadir descuentos";
+"REMOVE_INCLUDED_TIP_WARNING" = "¿Estás seguro que deseas quitar la propina incluída?";
+"REMOVE_DISCOUNTS_WARNING" = "¿Estás seguro que deseas quitar los descuentos?";
+
+// UserTipView
+
+"ENTER_AMOUNT_MANUALLY" = "Ingresar manualmente";
+"ENTER_PERCENTAGE" = "Ingresar porcentaje";
+
+// PictureVC
+
+"NEW_PIC" = "Nueva foto";
+"USE_THIS" = "Usar esta";
+"NO_ITEMS_FOUND_WARNING" = "No se encontraron artículos. ¿La imagen está torcida o borrosa?";
+"NO_ITEMS_FOUND_SUGGESTION" = "Intenta tomar una nueva foto, o continúa a mano.";
+"PROCESSING_RECEIPT..." = "Procesando recibo...";
+"ALMOST_THERE..." = "Casi listo...";
+
+// HomeViewController
+
+"DISALLOWED_CAMERA_ACCESS_WARNING_1" = "Has rechazado el acceso de Tab a la cámara. Ve a Ajustes para conceder acceso.";
+"DISALLOWED_CAMERA_ACCESS_WARNING_2" = "O bien, puedes omitir tomar una foto e ingresar elementos a mano.";
+"JOINING_BILL..." = "Uniéndose a cuenta...";
+"REJOINING_BILL..." = "Volviendo a unirse a cuenta...";
+"SHARE_CODE_NOT_FOUND_WARNING" = "Ese código no coincide con ninguna cuenta activa. Vuelve a comprobarlo e inténtalo otra vez.";
+"JOINING_OWNED_BILL_WARNING" = "¡Cuenta al cuadrado! No puedes unirte a una cuenta que creaste tú mismo.";
+"WHAT'S_NEW?" = "¿Qué hay de nuevo?";
+"NEW_BILL" = "Nueva cuenta";
+"JOIN_BILL" = "Unirse a cuenta";
+"MY_BILLS" = "Mis cuentas";
+"ENTER_CODE" = "Ingresar código";
+"WELCOME_:)" = "¡Bienvenido! :)";
+
+// CameraViewController
+
+"TILT_WARNING" = "¡Estás inclinado! Para obtener mejores resultados, toma la foto derecha del recibo.";
+"CAPTURE_FAILED" = "No se pudo tomar la imagen. Inténtalo de nuevo.";
+"SKIP_PHOTO_WARNING" = "¿Estás seguro que desea saltar la toma de una foto e ingresar elementos a mano?";
+
+// ExtrasViewController
+
+"VENMO_UNAVAILABLE" = "Lo sentimos, Venmo no está disponible por los momentos.";
+"UNABLE_TO_REMOVE_VENMO" = "No hemos podido quitar tu cuenta de Venmo. Inténtalo de nuevo.";
+"REMOVE_%@'S_VENMO_WARNING" = "¿Estás seguro que deseas quitar la cuenta de Venmo de %@?";
+"SQUARE_CASH_UNAVAILABLE" = "Lo sentimos, Square Cash no está disponible por los momentos.";
+"UNABLE_TO_REMOVE_SQUARE_CASH" = "No hemos podido quitar tu cuenta de Square Cash. Inténtalo de nuevo.";
+"REMOVE_%@'S_SQUARE_CASH_WARNING" = "¿Estás seguro que deseas quitar la cuenta de Square Cash de %@?";
+"CASHTAG" = "Cashtag";
+"ENTER_CASHTAG" = "¡Ingresar tu Square Cash $Cashtag con cuidado!";
+"RATE+REVIEW" = "Calificar + Reseñar";
+"GET_IN_TOUCH" = "Contactar";
+"SHARE_TAB" = "Compartir Tab";
+"LIFE_WITHOUT_TAB?" = "¿La vida sin Tab?";
+"OUR_FRIENDS" = "Nuestros amigos";
+"LOG_OUT" = "Cerrar sesión";
+"EDIT_NICKNAME" = "Editar apodo";
+"ADD_NICKNAME" = "Añadir apodo";
+"REMOVE_VENMO" = "Quitar Venmo";
+"REMOVE_SQUARE_CASH" = "Quitar Square Cash";
+"CONNECTED_AS" = "conectado como";
+"DON'T_SAVE_IMAGES" = "No guardar imágenes";
+"SAVE_IMAGES_TO_CAMERA_ROLL" = "Guardar imágenes al Carrete";
+"SAVING_TO_CAMERA_ROLL" = "guardando en el Carrete";
+"DISALLOWED_PHOTOS_ACCESS_WARNING" = "No has permitido el acceso de Tab a tus fotos. Ve a Ajustes para conceder acceso.";
+"UNABLE_TO_LOG_OUT" = "No hemos podido cerrar sesión. Inténtalo de nuevo.";
+"TOGGLE_DARK_MODE" = "Alternar modo oscuro";
+"DARK_MODE_ON" = "encendido";
+"DARK_MODE_OFF" = "apagado";
+"DARK_MODE_SYSTEM" = "emparejando al dispositivo";
+"DELETE_ACCOUNT" = "Eliminar cuenta";
+"DELETE_%@_USER_ACCOUNT_WARNING" = "¿Estás seguro que quieres eliminar %@?\n\n¡Esta acción no se puede deshacer!";
+"THE_USER_ACCOUNT_FOR_%@" = "la cuenta por %@";
+"YOUR_USER_ACCOUNT" = "tu cuenta";
+"UNABLE_TO_DELETE_USER_ACCOUNT" = "No pudimos eliminar tu cuenta. Inténtalo de nuevo, o contáctenos.";
+
+
+// TotalsVC
+
+"PAY/REQUEST" = "Pagar/Solicitar";
+"YOUR_ITEMS" = "Tus artículos";
+"BIRTHDAY" = "Cumple";
+"VENMO_NOW_CONNECTED" = "¡Tu cuenta de Venmo ahora está conectada!";
+
+// PastBillsVC
+
+"REGISTERED_USER_FOOTER_1" = "Toca la cuenta para ver el resumen; desliza hacia la izquierda para editar y otras acciones.";
+"REGISTERED_USER_FOOTER_2" = "(Puede editar cuentas que se crearon hace menos de una semana.)";
+"ANON_USER_FOOTER_1" = "Estas cuentas se guardan localmente.";
+"ANON_USER_FOOTER_2" = "No se guardarán cuentas futuras hasta que inicies sesión o te registres.";
+"ANON_USER_FOOTER_2_UNDERLINED_TEXT" = "inicies sesión o te registres";
+"REGISTERED_USER_EMPTY_STATE" = "Sin cuentas.\n\n¡Generar una!";
+"REGISTERED_USER_EMPTY_STATE_UNDERLINED_TEXT" = "Generar una";
+"ANON_USER_EMPTY_STATE" = "Las cuentas guardadas solo están disponibles para usuarios registrados.\n\n¡Iniciar sesión/registrarse!";
+"ANON_USER_EMPTY_STATE_UNDERLINED_TEXT" = "Iniciar sesión/registrarse";
+"ERROR_STRING_%@" = "No se pudieron %@ las cuentas. Desliza hacia abajo para reintentarlo.";
+"LOAD" = "cargar";
+"REFRESH" = "actualizar";
+"UNABLE_TO_DELETE_BILL_WARNING" = "No se puede eliminar la cuenta. Inténtalo de nuevo.";
+"DELETE_BILL_WARNING" = "¿Estás seguro que deseas eliminar esta cuenta?\n\n(No se eliminará para ninguna persona que se haya unido desde su propio teléfono.)";
+"LOADING_BILL_SUMMARY..." = "Cargando resumen de la cuenta...";
+"UNABLE_TO_LOAD_BILL_WARNING" = "No se pudo cargar la cuenta. Inténtalo de nuevo.";
+
+// BillSummaryVC
+
+"ENTER_NICKNAME_FOR_BILL" = "Ingresa un apodo para esta cuenta.";
+"UNABLE_TO_UPDATE_BILL_WARNING" = "No se pudo actualizar la cuenta. Por favor inténtalo de nuevo.";
+"BILL_NAME" = "Nombre de la cuenta";
+"SHARED_WITH_%@" = "compartido con %@";
+"ITEMS_SUBTOTAL" = "Subtotal de los artículos";
+
+// BillSummaryVM
+
+"UNCLAIMED_AMOUNT" = "Cantidad sin reclamar";
+"UNCLAIMED_ITEM_WARNING" = "¡Hay 1 artículo sin reclamar!";
+"UNCLAIMED_ITEMS_WARNING_%tu" = "¡Hay %tu artículos sin reclamar!";
+"YOUR_TOTAL" = "Tu total";
+"BILL_TOTAL" = "Total de la cuenta";
+
+// DefaultsManager
+
+"LATER" = "Luego";
+"UPDATE" = "Actualizar";
+"DEFAULT_VENMO_PAYMENT_NOTE_1" = "Dividir la cuenta con Tab";
+"DEFAULT_UPDATED_VERSION_NOTE" = "Una nueva versión de Tab está disponible! Sugerimos actualizar más pronto que tarde.";
+
+// UpdatesManager
+
+"DOWN_FOR_MAINTENANCE_BILL_WARNING" = "Tab está temporalmente fuera de servicio por mantenimiento. ¡Lo sentimos! Serás quitado de esta cuenta.";
+
+// BillsplitManager
+
+"MID_BILL_LOGOUT_WARNING" = "De alguna manera, te has desconectado. Tendremos que sacarte de esta cuenta. ¡Lo sentimos! Si quieres, puedes iniciar sesión y volver a unirte.";
+"MID_BILL_USER_CHANGE_WARNING" = "De alguna manera, tu cuenta de usuario ha cambiado. Tendremos que sacarte de esta cuenta. ¡Lo sentimos!";
+
+// Billsplit
+
+"%zd_OTHERS" = "%zd otros";
+
+// Payment
+
+"VENMO" = "Venmo";
+"SQUARE_CASH" = "Square Cash";
+
+// Person
+
+"%zd_PEOPLE" = "%zd personas";
+
+// PastBill
+
+"STARTED" = "Iniciada";
+"JOINED" = "Se unió";
+"TODAY" = "hoy";
+"YESTERDAY" = "ayer";
+
+// PersonalTotalsVM
+
+"PRE-TIP" = "Pre-propina";
+"SUBTOTAL_ABBREVIATED" = "sub.";
+"INCLUDED_TIP_ABBREVIATED" = "prop. incld.";
+"DISCOUNT_ABBREVIATED" = "desc.";
+"BDAY_SHARE" = "porción de cumple";
+"BDAY" = "cumple";
+"%@_PERCENT_ON_%@%@" = "%@%% de %@%@";
+
+// String
+
+"AND" = "y";
+
+// Deeplink
+
+"UNABLE_TO_JOIN_BILL" = "No se pudo unir a la cuenta. Por favor, revisa el link e inténtalo de nuevo.";
+"LOGIN_LINK_EXPIRED_OR_INVALID" = "Tu link de inicio de sesión ha caducado o no es válido. Por favor, intenta iniciar sesión de nuevo.";
+"SOMEONE_ALREADY_LOGGED_IN" = "¡Alguien ya inició sesión! Si es necesario, cierra sesión y vuelve a intentarlo.";
+"LOGGING_IN..." = "Ingresando...";
+"LOADING..." = "Cargando...";
+
+// Share
+
+"SHARE_TAB_SUBJECT" = "Check out Tab - el sencillo divisor de cuentas!";
+"SHARE_BILL_SUBJECT" = "¡Unir mi cuenta con Tab - el sencillo divisor de cuentas!";
+"SHARE_BILL_SUMMARY_SUBJECT" = "Tu cuenta, dividir con Tab";
+"SHARED_W/" = "compartida c/";
+"SENT_TO" = "enviados a";
+"RECEIVED_FROM" = "recibidos de";
+"EMAIL_BODY_HEADER" = "¡Gracias por dividir tu cuenta con Tab! Aquí están los detalles de tu cuenta.";
+
+// BillSummaryCell
+
+"SHOW_DETAILS" = "Mostrar detalles";
+"HIDE_DETAILS" = "Ocultar detalles";
+"EDIT_BILL_NAME" = "Editar nombre de la cuenta";
+
+// PaymentPersonCell
+
+"HASN'T_CONNECTED_VENMO" = "no se ha conectado a Venmo";
+"INCOMPATIBLE_APP_VERSION" = "versión no compatible de la app";
+"OWES" = "debe";
+
+// PaymentSummaryLabel
+
+"PAY_%@_TO_%@" = "pagar %@ a %@";
+"REQUEST_%@_FROM_%@" = "solicitar %@ de %@";
+
+// DialogView
+
+"RETRY" = "Intentar de nuevo";
+"REQUEST_TIMED_OUT" = "La solicitud caducó. Revisa tu conexión y vuelve a intentarlo.";
+"DOWN_FOR_MAINTENANCE" = "Tab está temporalmente fuera de servicio por mantenimiento. ¡Lo sentimos! Por favor, inténtalo luego.";
+"SERVICE_ERROR" = "Error de servicio de Tab. ¡Lo sentimos! Si este problema persiste, contáctanos.";
+"VENMO_PAYMENT_FAILURE" = "Venmo no pudo procesar el pago. Haz que la persona que te pagó, lo intente nuevamente.";
+
+// ReviewOrFeedbackDialogView
+
+"REVIEW_OR_FEEDBACK_DIALOG_BODY" = "¡Gracias por ser un usuario fiel de Tab!\n\nNos encantaría escuchar lo que piensas de la app.";
+"REVIEW_OR_FEEDBACK_DIALOG_REVIEW_BODY" = "¡Increíble! ¿Te importaría dejarnos una reseña?";
+"REVIEW_OR_FEEDBACK_DIALOG_FEEDBACK_BODY" = "Si tienes un minuto, ¿te importaría enviarnos tus comentarios sobre cómo podemos mejorar?";
+"IT'S_GREAT" = "¡Está genial!";
+"NEEDS_WORK" = "Necesita trabajo";
+"LEAVE_A_REVIEW" = "Dejar una reseña";
+"SEND_FEEDBACK" = "Enviar feedback";
+
+// AuthChallengeDialogView
+
+"SEND" = "Enviar";
+"GO_TO_EMAIL" = "Ir al Email";
+"AUTH_CHALLENGE_DIALOG_BODY" = "Ingresa tu dirección de correo electrónico y te enviaremos un enlace seguro para iniciar sesión o registrarte.";
+"TOO_MANY_REQUESTS_TRY_AGAIN" = "¡Demasiadas solicitudes! Inténtalo de nuevo en unos minutos.";
+"SUCCESS_CHECK_YOUR_INBOX_%zd" = "¡Éxito - revisa tu bandeja de entrada! Ten en cuenta que el enlace caduca en %zd minutos.";
+"NO_EMAIL?" = "¿No ha llegado el email?";
+
+// LoginPromptDialogView
+
+"LOGIN_PROMPT_DIALOG_BODY" = "Si continúas sin iniciar sesión, tu cuenta no se guardará.\n\n¿Deseas iniciar sesión primero?";
+"NEVER_WARN_ME_AGAIN" = "No avisarme de nuevo";
+
+// PaymentsDialogView
+
+"COMPLETE_REQUEST" = "Completar solicitud";
+"COMPLETE_PAYMENT" = "Completar pago";
+"PAYMENT_METHOD_DISABLED" = "Este método de pago no está disponible por los momentos.";
+"PAYMENT_METHOD_UNAVAILABLE_FOR_CURRENCY" = "Este método de pago no está disponible para la moneda de tu cuenta.";
+"ONLY_PHONE_OWNER_CAN_VENMO" = "Solo el propietario del teléfono puede realizar transacciónes con Venmo.";
+"NO_ELIGIBLE_RECIPIENTS" = "No hay destinatarios elegibles.";
+"NO_ELIGIBLE_RECIPIENTS_VENMO_INFO_MESSAGE" = "Los destinatarios de Venmo deben haber conectado sus cuentas de Venmo en Tab y se haberse unido a esta cuenta desde sus propios teléfonos.";
+"TRANSACTING_AS_:" = "¿Quién paga/solicita?";
+"PAYMENT_METHOD_:" = "Método de pago:";
+"PAY_TO_/_REQUEST_FROM_:" = "Pagar a/solicitar de:";
+"YOUR_PAYMENT_TO_%@_WAS_SUCCESSFUL" = "¡Tu pago a %@ fue exitoso!";
+"%@_PAYMENT_TO_%@_WAS_SUCCESSFUL" = "¡El pago de %@ a %@ fue exitoso!";
+"YOUR_PAYMENTS_TO_%@_WERE_SUCCESSFUL" = "¡Tus pagos a %@ fueron exitosos!";
+"%@_PAYMENTS_TO_%@_WERE_SUCCESSFUL" = "¡Los pagos de %@ a %@ fueron exitosos!";
+"YOUR_REQUEST_FROM_%@_WAS_SUCCESSFUL" = "¡Tu solicitud de %@ fue exitosa!";
+"%@_REQUEST_FROM_%@_WAS_SUCCESSFUL" = "¡La solicitud de %@ a %@ fue exitosa!";
+"YOUR_REQUESTS_FROM_%@_WERE_SUCCESSFUL" = "¡Tus solicitudes de %@ fueron exitosas!";
+"%@_REQUESTS_FROM_%@_WERE_SUCCESSFUL" = "¡Las solicitudes de %@ a %@ fueron exitosas!";
+"VENMO_UNABLE_TO_PROCESS_YOUR_PAYMENT_TO_%@" = "Venmo no pudo procesar tu pago a %@. Por favor, inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_PAYMENT_TO_%@" = "Venmo no pudo procesar el pago de %@ a %@. Por favor, inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_PAYMENTS_TO_%@" = "Venmo no pudo procesar tus pagos a %@. Por favor, inténtalos de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_PAYMENTS_TO_%@" = "Venmo no pudo procesar los pagos de %@ a %@. Por favor, inténtalos de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_REQUEST_FROM_%@" = "Venmo no pudo procesar tu solicitud de %@. Por favor, inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_REQUEST_FROM_%@" = "Venmo no pudo procesar la solicitud de %@ a %@. Por favor, inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_REQUESTS_FROM_%@" = "Venmo no pudo procesar tus solicitudes de %@. Por favor, inténtalas de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_REQUESTS_FROM_%@" = "Venmo no pudo procesar las solicitudes de %@ a %@. Por favor, inténtalas de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_PAYMENT" = "Venmo no pudo procesar tu pago. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_PAYMENT" = "Venmo no pudo procesar el pago de %@. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_PAYMENTS" = "Venmo no pudo procesar tus pagos. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_PAYMENTS" = "Venmo no pudo procesar los pagos de %@. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_REQUEST" = "Venmo no pudo procesar tu solicitud. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_REQUEST" = "Venmo no pudo procesar la solicitud de %@. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_YOUR_REQUESTS" = "Venmo no pudo procesar tus solicitudes. Inténtalo de nuevo.";
+"VENMO_UNABLE_TO_PROCESS_%@_REQUESTS" = "Venmo no pudo procesar las solicitudes de %@. Inténtalo de nuevo.";
+"YOUR_PAYMENT_TO_%@_UNSUCCESSFUL" = "Tu pago a %@ no fue exitoso. Por favor, inténtalo de nuevo.";
+"%@_PAYMENT_TO_%@_UNSUCCESSFUL" = "El pago de %@ a %@ no fue exitoso. Por favor, inténtalo de nuevo.";
+"YOUR_PAYMENTS_TO_%@_UNSUCCESSFUL" = "Tus pagos a %@ no tuvieron éxito. Por favor, inténtalos de nuevo.";
+"%@_PAYMENTS_TO_%@_UNSUCCESSFUL" = "Los pagos de %@ a %@ no tuvieron éxito. Por favor, inténtalos de nuevo.";
+"YOUR_REQUEST_FROM_%@_UNSUCCESSFUL" = "Tu solicitud de %@ no tuvo éxito. Por favor, inténtalo de nuevo.";
+"%@_REQUEST_FROM_%@_UNSUCCESSFUL" = "La solicitud de %@ a %@ no tuvo éxito. Por favor, inténtalo de nuevo.";
+"YOUR_REQUESTS_FROM_%@_UNSUCCESSFUL" = "Tus solicitudes de %@ no tuvieron éxito. Por favor, inténtalas de nuevo.";
+"%@_REQUESTS_FROM_%@_UNSUCCESSFUL" = "Las solicitudes de %@ a %@ no tuvieron éxito. Por favor, inténtalas de nuevo.";
+"YOUR_PAYMENT_UNSUCCESSFUL" = "Tu pago no tuvo éxito. Por favor, inténtalo de nuevo.";
+"%@_PAYMENT_UNSUCCESSFUL" = "El pago de %@ no tuvo éxito. Por favor, inténtalo de nuevo.";
+"YOUR_PAYMENTS_UNSUCCESSFUL" = "Tus pagos no tuvieron éxito. Por favor, inténtalo de nuevo.";
+"%@_PAYMENTS_UNSUCCESSFUL" = "Los pagos de %@ no tuvieron éxito. Por favor, inténtalo de nuevo.";
+"YOUR_REQUEST_UNSUCCESSFUL" = "Tu solicitud no tuvo éxito. Por favor, inténtalo de nuevo.";
+"%@_REQUEST_UNSUCCESSFUL" = "La solicitud de %@ no tuvo éxito. Por favor, inténtalo de nuevo.";
+"YOUR_REQUESTS_UNSUCCESSFUL" = "Tus solicitudes no tuvieron éxito. Por favor, inténtalo de nuevo.";
+"%@_REQUESTS_UNSUCCESSFUL" = "Las solicitudes de %@ no tuvieron éxito. Por favor, inténtalo de nuevo.";
+
+// PaymentsSummaryDialogView
+
+"%@_PAID_TO_%@_WITH_%@" = "%@ pagados a %@ con %@";
+"%@_REQUESTED_BY_%@_WITH_%@" = "%@ solicitados por %@ con %@";
+"%@_RECEIVED_FROM_%@_WITH_%@" = "%@ recibidos de %@ con %@";
+"%@_REQUESTED_FROM_%@_WITH_%@" = "%@ solicitado de %@ con %@";
+
+// AddPersonDialogView
+
+"BACK" = "Volver";
+"ENTER_NICKNAME_FOR_YOURSELF_FIRST" = "Escoge un apodo para ti primero.";
+"ADD_PERSON" = "Añadir persona";
+"EDIT_PERSON" = "Editar persona";
+"ADD_EDIT_OR_CLEAR_NICKNAME" = "Añadir, editar o eliminar tu apodo por defecto.";
+"SAVE_TO_ACCOUNT" = "Guardar a tu cuenta";
+"NICKNAME" = "Apodo";
+"NAME_TAKEN_:(" = "nombre ya en uso :(";
+"KEEP_IT_SHORT" = "¡mantenlo corto!";
+
+// BirthdayPeopleDialogView
+
+"BIRTHDAY_PEOPLE_DIALOG_BODY" = "Totales de personas de cumple estan cubiertos por todos los demás.";
+"BIRTHDAY_PEOPLE_DIALOG_BODY_SMALL_SCREEN" = "Totales de personas de cumple estan cubiertos por todos los demás.";
+
+// AddPersonView
+
+"ADD" = "Añadir";
+
+// StatusBarView
+
+"OFFLINE_BILL_MESSAGING" = "Cuenta sin conexión. Sin conexión a Tab.";
+"NO_INTERNET_WARNING" = "No hay internet. Revisa tu conexión.";
+"IFFY_CONNECTION_WARNING" = "Tu conexión con Tab está extraña.";
+
+// AuthChallengeDialogContentView
+
+"EMAIL" = "Email";
+
+// ShareCodeBar
+
+"SHARING_PERIOD_ENDED" = "Período de compartir terminado";
+"SHARING_UNAVAILABLE" = "Imposible compartir";
+"LOADING_SHARE_CODE..." = "Cargando código para compartir...";
+"SHARE_CODE_NOUN" = "Código para compartir";
+"SHARE_LINK" = "Compartir link";
+"SHARE_CODE_DIALOG_BODY_PERIOD_ENDED" = "Ya no puedes compartir esta cuenta con nuevos participantes, pero cualquier persona registrada con una cuenta de Tab que se haya unido anteriormente, todavía puede volver a unirse y realizar cambios.";
+"SHARE_CODE_DIALOG_BODY_SHARING_UNAVAILABLE" = "Compartir cuentas no está disponible por los momentos. ¡Lo sentimos por eso!";
+"SHARE_CODE_DIALOG_BODY" = "Entrega este código a todos los que están alrededor de la mesa para que puedan unirse a la cuenta desde sus teléfonos, seleccionar sus propios artículos y hacer sus pagos dentro de la app.";
+"JOINED_FROM_THEIR_OWN_PHONE" = "Unido desde su propio teléfono";
+"JOINED_FROM_THEIR_OWN_PHONES" = "Unido desde sus propios teléfonos";
+
+// BillInfoBars
+
+"CHECK_ITEMS_WARNING" = "Revisa los artículos para asegurarse que la cuenta se leyó correctamente. Desliza hacia la izquierda sobre un artículo para editarlo, eliminarlo o dividirlo.";
+"CURRENCY_MISMATCH_WARNING" = "Moneda extranjera detectada. Si se leyó incorrectamente, toca aquí para arreglarlo.";
+"ZERO_TAX_WARNING" = "Ningún impuesto detectado. Si se leyó incorrectamente, desliza hacia la izquierda en la fila del impuesto para corregirlo.";
+"CHANGE_FROM_DETECTED_CURRENCY_(%@)_TO_LOCAL_CURRENCY_(%@)?" = "¿Cambiar de la moneda detectada (%@) a tu moneda local (%@)?";
+"CHANGE" = "Cambiar";
+
+
+// Another few strings to translate
+"hello_world" = "HelloThere!";
