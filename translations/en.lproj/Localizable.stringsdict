@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>numberOfApples</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@apples@</string>
+        <key>apples</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>One apple</string>
+            <key>two</key>
+            <string>Two apples</string>
+            <key>other</key>
+            <string>%d apples</string>
+        </dict>
+    </dict>
+
+    <key>meetingSummary</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%1$#@attendees@ met for %2$#@hours@</string>
+        <key>attendees</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>One person</string>
+            <key>other</key>
+            <string>%1$d people</string>
+        </dict>
+        <key>hours</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>one hour</string>
+            <key>other</key>
+            <string>%2$d hours</string>
+        </dict>
+    </dict>
+
+    <!-- More localized strings can be added here -->
+</dict>
+</plist>

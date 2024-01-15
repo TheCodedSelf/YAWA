@@ -1,0 +1,205 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld points" : {
+      "comment" : "Points string",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "device" : {
+              "appletv" : {
+                "variations" : {
+                  "plural" : {
+                    "one" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld point"
+                      }
+                    },
+                    "other" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld points"
+                      }
+                    }
+                  }
+                }
+              },
+              "iphone" : {
+                "variations" : {
+                  "plural" : {
+                    "one" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld point"
+                      }
+                    },
+                    "other" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld points"
+                      }
+                    }
+                  }
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld points"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "device" : {
+              "appletv" : {
+                "variations" : {
+                  "plural" : {
+                    "one" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld point"
+                      }
+                    },
+                    "other" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld points"
+                      }
+                    }
+                  }
+                }
+              },
+              "iphone" : {
+                "variations" : {
+                  "plural" : {
+                    "one" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld point"
+                      }
+                    },
+                    "other" : {
+                      "stringUnit" : {
+                        "state" : "needs_review",
+                        "value" : "%lld points"
+                      }
+                    }
+                  }
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld points"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "loginButton.applesAndTomatoes.%lld%lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "loginButton.applesAndTomatoes.%#@applesCount@%#@tomatoesCount@"
+          },
+          "substitutions" : {
+            "applesCount" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg apple"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg apples"
+                    }
+                  }
+                }
+              }
+            },
+            "tomatoesCount" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg tomato"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg tomatoes"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "loginButton.subtitle" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "device" : {
+              "appletv" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Hello, World!"
+                }
+              },
+              "iphone" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hello, Small World!"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hello, World!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "loginButton.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
